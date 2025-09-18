@@ -49,7 +49,7 @@ CATEGORIES = {
     "Others": []
 }
 ```
-##📄 License | Licença
+## 📄 License | Licença
 
 ### This project is under the MIT License.
 ### Este projeto está sob a Licença MIT.
