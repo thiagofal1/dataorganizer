@@ -34,11 +34,11 @@ python dataorganizer.py "/path/to/your/folder"
 
 ## 🛠️ Configuration | Configuração
 
-###Edit the dictionary CATEGORIES inside organizer.py to add or remove extensions.
+### Edit the dictionary CATEGORIES inside organizer.py to add or remove extensions.
 
 ---
 
-###Edite o dicionário CATEGORIES dentro do organizer.py para adicionar ou remover extensões.
+### dite o dicionário CATEGORIES dentro do organizer.py para adicionar ou remover extensões.
 
 ```bash
 CATEGORIES = {
@@ -51,5 +51,5 @@ CATEGORIES = {
 ```
 ##📄 License | Licença
 
-###This project is under the MIT License.
-###Este projeto está sob a Licença MIT.
+### This project is under the MIT License.
+### Este projeto está sob a Licença MIT.
