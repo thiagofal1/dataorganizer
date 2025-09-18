@@ -1,4 +1,4 @@
-# 📂 File Organizer | Organizador de Arquivos
+# 📂 Data Organizer | Organizador de Dados
 
 A simple Python script to organize files into categories (Images, Videos, Documents, Music, Others).  
 Um script Python simples para organizar arquivos em categorias (Imagens, Vídeos, Documentos, Música, Outros).
