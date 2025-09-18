@@ -38,7 +38,7 @@ python dataorganizer.py "/path/to/your/folder"
 
 ---
 
-### dite o dicionário CATEGORIES dentro do organizer.py para adicionar ou remover extensões.
+### Edite o dicionário CATEGORIES dentro do organizer.py para adicionar ou remover extensões.
 
 ```bash
 CATEGORIES = {
