@@ -1,51 +1,55 @@
-# DataOrganizer
+# 📂 Data Organizer | Organizador de Dados
 
-Um organizador de arquivos em Python que separa os arquivos de uma pasta em
-subpastas de acordo com a extensão.
+A simple Python script to organize files into categories (Images, Videos, Documents, Music, Others).  
+Um script Python simples para organizar arquivos em categorias (Imagens, Vídeos, Documentos, Música, Outros).
 
-## Recursos
+---
 
-- Classifica imagens, vídeos, documentos e músicas.
-- Envia extensões não reconhecidas para a pasta `Others`.
-- Evita sobrescrever arquivos: em caso de conflito, adiciona um sufixo numérico
-  ao nome, como `relatorio_1.pdf`.
-- Exibe o progresso no terminal e oferece logs detalhados com `--verbose`.
+## 🚀 Features | Funcionalidades
+- Automatically organizes files by extension.  
+- Avoids overwriting by renaming duplicates.  
+- Recursive search in subfolders.  
+- Customizable categories.  
 
-## Requisitos
+---
+- Organiza arquivos automaticamente por extensão.  
+- Evita sobrescrita renomeando duplicados.  
+- Busca recursiva em subpastas.  
+- Categorias personalizáveis.  
 
-- Python 3.9 ou superior.
+---
 
-O projeto usa somente a biblioteca padrão do Python, portanto não requer a
-instalação de pacotes adicionais.
+## ⚙️ Requirements | Requisitos
+- Python 3.7+
 
-## Como usar
+---
 
-No terminal, entre na pasta do projeto e informe a pasta que deseja organizar:
+## ▶️ Usage | Como usar
+
+### Run in the terminal | Execute no terminal:
+```bash
+python dataorganizer.py "/path/to/your/folder"
+```
+---
+
+## 🛠️ Configuration | Configuração
+
+### Edit the dictionary CATEGORIES inside organizer.py to add or remove extensions.
+
+---
+
+### Edite o dicionário CATEGORIES dentro do organizer.py para adicionar ou remover extensões.
 
 ```bash
-python dataorganizer.py "C:\\caminho\\para\\sua\\pasta"
+CATEGORIES = {
+    "Images": [".jpg", ".jpeg", ".png"],
+    "Videos": [".mp4", ".avi"],
+    "Documents": [".pdf", ".docx"],
+    "Music": [".mp3"],
+    "Others": []
+}
 ```
+## 📄 License | Licença
 
-Para acompanhar informações mais detalhadas durante a execução:
-
-```bash
-python dataorganizer.py "C:\\caminho\\para\\sua\\pasta" --verbose
-```
-
-## Categorias
-
-| Pasta criada | Extensões |
-| --- | --- |
-| `Images` | `.jpg`, `.jpeg`, `.png`, `.gif`, `.bmp`, `.tiff` |
-| `Videos` | `.mp4`, `.avi`, `.mov`, `.mkv`, `.wmv` |
-| `Documents` | `.pdf`, `.doc`, `.docx`, `.txt`, `.xlsx`, `.ppt`, `.pptx` |
-| `Music` | `.mp3`, `.wav`, `.flac`, `.aac` |
-| `Others` | Todas as demais extensões |
-
-## Atenção
-
-O script move arquivos de verdade. Antes de executá-lo em uma pasta importante,
-faça um backup ou teste primeiro com uma cópia dos arquivos.
-
-As subpastas de categoria são criadas dentro da pasta informada. Arquivos que
-já estiverem na categoria correta não são movidos novamente.
+### This project is under the MIT License.
+### Este projeto está sob a Licença MIT.
